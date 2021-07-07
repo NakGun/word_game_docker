@@ -269,7 +269,7 @@ class MyDB
     }
 }
 
-$mysqli = new MyDB('mariadb', 'oniyuni', 'nakun', '354900');
+$mysqli = new MyDB('mariadb', 'oniyuni', 'nakun', '354900aa'); 
 
 function db(): MyDB
 {
