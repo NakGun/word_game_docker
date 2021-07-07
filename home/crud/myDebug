@@ -1,0 +1,111 @@
+'users','insert','id => 111','username => 111''users','insert','id => 111','username => 111''users','insert','id => 111','username => 111'
+'users','insert','id => 111','username => 111','
+''users','insert','id => 111','username => 111',\''users','insert','id => 111','username => 111'
+'users','insert','id => 111','username => 111'
+'users','insert','id => 111','username => 111'
+'users','insert','id => 111','username => 111'
+'','search','',''
+'users','insert','id => 111','username => 111'
+'mariadb','oniyuni','nakun','354900,*','0'
+'users','insert','id => 111','username => 111'
+'mariadb','oniyuni','nakun','354900','0'
+'','search','',''
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id => 111','username => 111'
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id => 111','username => 111'
+'mariadb','oniyuni','nakun','354900','0'
+'','search','',''
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id=>111','username=>111'
+'mariadb','oniyuni','nakun','354900','0'
+'','search','',''
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id=>111','username=>111'
+'Array'
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id=>111','username=>111'
+'Array'
+'mariadb','oniyuni','nakun','354900','0'
+'users','insert','id=>111','username=>111'
+'Array'
+'mariadb','oniyuni','nakun','354900','0'
+'Array'
+'mariadb','oniyuni','nakun','354900','0'
+'0','1',
+'mariadb','oniyuni','nakun','354900','0'
+'0','1',
+'mariadb','oniyuni','nakun','354900','0'
+'Array'
+'0','1',
+'mariadb','oniyuni','nakun','354900','0'
+'Array'
+'0','1',
+'.usercrud.','Array'
+'.parseRecord.','0','1',
+'.usercrud.','id=>111'
+'.parseRecord.','0','1',
+'.usercrud.',''
+'.usercrud.','Array'
+'.parseRecord.','0','1',
+'.usercrud.','Array'
+'.parseRecord.','0','1',
+'.usercrud.','Array'
+'.parseRecord.','0','1',
+'.usercrud.','Array'
+'.parseRecord.','0','1',
+'.usercrud.','Array'
+'.parseRecord.','Array','Array',
+'.usercrud.','Array'
+'.parseRecord.','Array','Array',
+'.usercrud.','Array'
+'.parseRecord.','Array','Array',
+'.usercrud.','Array'
+'.parseRecord.','Array','Array',
+'.usercrud.',''
+'.parseRecord.','Array','Array',
+'.usercrud.',''
+'.parseRecord.','Array','Array',
+'.usercrud.',''
+'.parseRecord.','Array','Array',
+'.usercrud.',''
+'.parseRecord.','Array','Array',
+'.usercrud.',''
+'.usercrud.',''
+'.parseRecord.','Array','111',
+'.usercrud.',''
+'.parseRecord.','id','111',
+'.usercrud.',''
+'.parseRecord.','id','111',
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.parseRecord.','id','222',
+'.usercrud.',''
+'.usercrud.',''
+'.parseRecord.','id','333',
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.parseRecord.','id','444',
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.usercrud.',''
+'.parseRecord.','id','',
+delete~~~'.parseRecord.','id','333',
+'.parseRecord.','username','333',
+'.parseRecord.','id','',
+'.parseRecord.','id','333',
+'.parseRecord.','username','333',
+'.parseRecord.','id','',
+'.parseRecord.','username','14444444444',
+'.parseRecord.','id','333',
+'.parseRecord.','username','155555555555',
+'.parseRecord.','id','333',
+'.parseRecord.','username','16666666666',
+'.parseRecord.','id','333',
+'.parseRecord.','username','12345',
+'.parseRecord.','id','333',

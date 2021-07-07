@@ -1,0 +1,1016 @@
+2021/05/29 23:55:09 [notice] 1#1: using the "epoll" event method
+2021/05/29 23:55:09 [notice] 1#1: nginx/1.19.7
+2021/05/29 23:55:09 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/29 23:55:09 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/29 23:55:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/29 23:55:09 [notice] 1#1: start worker processes
+2021/05/29 23:55:09 [notice] 1#1: start worker process 33
+2021/05/29 23:55:19 [error] 33#33: *1 "/docker/home/index.html" is not found (2: No such file or directory), client: 172.31.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2021/05/29 23:55:21 [error] 33#33: *1 "/docker/home/index.html" is not found (2: No such file or directory), client: 172.31.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2021/05/29 23:58:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/29 23:58:21 [notice] 33#33: gracefully shutting down
+2021/05/29 23:58:21 [notice] 33#33: exiting
+2021/05/29 23:58:21 [notice] 33#33: exit
+2021/05/29 23:58:22 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/29 23:58:22 [notice] 1#1: worker process 33 exited with code 0
+2021/05/29 23:58:22 [notice] 1#1: exit
+2021/05/29 23:58:37 [notice] 1#1: using the "epoll" event method
+2021/05/29 23:58:37 [notice] 1#1: nginx/1.19.7
+2021/05/29 23:58:37 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/29 23:58:37 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/29 23:58:37 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/29 23:58:37 [notice] 1#1: start worker processes
+2021/05/29 23:58:37 [notice] 1#1: start worker process 33
+2021/05/29 23:58:40 [error] 33#33: *1 "/docker/home/default/index.html" is not found (2: No such file or directory), client: 192.168.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2021/05/29 23:58:41 [error] 33#33: *1 "/docker/home/default/index.html" is not found (2: No such file or directory), client: 192.168.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2021/05/29 23:58:42 [error] 33#33: *1 "/docker/home/default/index.html" is not found (2: No such file or directory), client: 192.168.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost"
+2021/05/30 00:01:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/30 00:01:36 [notice] 33#33: gracefully shutting down
+2021/05/30 00:01:36 [notice] 33#33: exiting
+2021/05/30 00:01:36 [notice] 33#33: exit
+2021/05/30 00:01:36 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/30 00:01:36 [notice] 1#1: worker process 33 exited with code 0
+2021/05/30 00:01:36 [notice] 1#1: exit
+2021/05/30 00:01:51 [notice] 1#1: using the "epoll" event method
+2021/05/30 00:01:51 [notice] 1#1: nginx/1.19.7
+2021/05/30 00:01:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/30 00:01:51 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/30 00:01:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/30 00:01:51 [notice] 1#1: start worker processes
+2021/05/30 00:01:51 [notice] 1#1: start worker process 33
+2021/05/30 00:03:38 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/30 00:03:38 [notice] 33#33: gracefully shutting down
+2021/05/30 00:03:38 [notice] 33#33: exiting
+2021/05/30 00:03:38 [notice] 33#33: exit
+2021/05/30 00:03:38 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/30 00:03:38 [notice] 1#1: worker process 33 exited with code 0
+2021/05/30 00:03:38 [notice] 1#1: exit
+2021/05/30 00:03:55 [notice] 1#1: using the "epoll" event method
+2021/05/30 00:03:55 [notice] 1#1: nginx/1.19.7
+2021/05/30 00:03:55 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/30 00:03:55 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/30 00:03:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/30 00:03:55 [notice] 1#1: start worker processes
+2021/05/30 00:03:55 [notice] 1#1: start worker process 33
+2021/05/30 00:27:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/30 00:27:41 [notice] 33#33: gracefully shutting down
+2021/05/30 00:27:41 [notice] 33#33: exiting
+2021/05/30 00:27:41 [notice] 33#33: exit
+2021/05/30 00:27:41 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/30 00:27:41 [notice] 1#1: worker process 33 exited with code 0
+2021/05/30 00:27:41 [notice] 1#1: exit
+2021/05/31 00:43:42 [notice] 1#1: using the "epoll" event method
+2021/05/31 00:43:42 [notice] 1#1: nginx/1.19.7
+2021/05/31 00:43:42 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 00:43:42 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 00:43:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 00:43:42 [notice] 1#1: start worker processes
+2021/05/31 00:43:42 [notice] 1#1: start worker process 33
+2021/05/31 01:08:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 01:08:28 [notice] 33#33: gracefully shutting down
+2021/05/31 01:08:28 [notice] 33#33: exiting
+2021/05/31 01:08:28 [notice] 33#33: exit
+2021/05/31 01:08:28 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 01:08:28 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 01:08:28 [notice] 1#1: exit
+2021/05/31 01:11:17 [notice] 1#1: using the "epoll" event method
+2021/05/31 01:11:17 [notice] 1#1: nginx/1.19.7
+2021/05/31 01:11:17 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 01:11:17 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 01:11:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 01:11:17 [notice] 1#1: start worker processes
+2021/05/31 01:11:17 [notice] 1#1: start worker process 34
+2021/05/31 01:11:42 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 01:11:42 [notice] 34#34: gracefully shutting down
+2021/05/31 01:11:42 [notice] 34#34: exiting
+2021/05/31 01:11:42 [notice] 34#34: exit
+2021/05/31 01:11:42 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/05/31 01:11:42 [notice] 1#1: worker process 34 exited with code 0
+2021/05/31 01:11:42 [notice] 1#1: exit
+2021/05/31 01:11:57 [notice] 1#1: using the "epoll" event method
+2021/05/31 01:11:57 [notice] 1#1: nginx/1.19.7
+2021/05/31 01:11:57 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 01:11:57 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 01:11:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 01:11:57 [notice] 1#1: start worker processes
+2021/05/31 01:11:57 [notice] 1#1: start worker process 25
+2021/05/31 01:12:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 01:12:21 [notice] 25#25: gracefully shutting down
+2021/05/31 01:12:21 [notice] 25#25: exiting
+2021/05/31 01:12:21 [notice] 25#25: exit
+2021/05/31 01:12:21 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/05/31 01:12:21 [notice] 1#1: worker process 25 exited with code 0
+2021/05/31 01:12:21 [notice] 1#1: exit
+2021/05/31 01:56:06 [notice] 1#1: using the "epoll" event method
+2021/05/31 01:56:06 [notice] 1#1: nginx/1.19.7
+2021/05/31 01:56:06 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 01:56:06 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 01:56:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 01:56:06 [notice] 1#1: start worker processes
+2021/05/31 01:56:06 [notice] 1#1: start worker process 34
+2021/05/31 02:12:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 02:12:50 [notice] 34#34: gracefully shutting down
+2021/05/31 02:12:50 [notice] 34#34: exiting
+2021/05/31 02:12:50 [notice] 34#34: exit
+2021/05/31 02:12:50 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/05/31 02:12:50 [notice] 1#1: worker process 34 exited with code 0
+2021/05/31 02:12:50 [notice] 1#1: exit
+2021/05/31 04:34:16 [notice] 1#1: using the "epoll" event method
+2021/05/31 04:34:16 [notice] 1#1: nginx/1.19.7
+2021/05/31 04:34:16 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 04:34:16 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 04:34:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 04:34:16 [notice] 1#1: start worker processes
+2021/05/31 04:34:16 [notice] 1#1: start worker process 33
+2021/05/31 04:40:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 04:40:12 [notice] 33#33: gracefully shutting down
+2021/05/31 04:40:12 [notice] 33#33: exiting
+2021/05/31 04:40:12 [notice] 33#33: exit
+2021/05/31 04:40:12 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 04:40:12 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 04:40:12 [notice] 1#1: exit
+2021/05/31 04:52:05 [notice] 1#1: using the "epoll" event method
+2021/05/31 04:52:05 [notice] 1#1: nginx/1.19.7
+2021/05/31 04:52:05 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 04:52:05 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 04:52:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 04:52:05 [notice] 1#1: start worker processes
+2021/05/31 04:52:05 [notice] 1#1: start worker process 32
+2021/05/31 05:05:08 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:05:08 [notice] 32#32: gracefully shutting down
+2021/05/31 05:05:08 [notice] 32#32: exiting
+2021/05/31 05:05:08 [notice] 32#32: exit
+2021/05/31 05:05:08 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/05/31 05:05:08 [notice] 1#1: worker process 32 exited with code 0
+2021/05/31 05:05:08 [notice] 1#1: exit
+2021/05/31 05:10:01 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:10:01 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:10:01 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:10:01 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:10:01 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:10:01 [notice] 1#1: start worker processes
+2021/05/31 05:10:01 [notice] 1#1: start worker process 33
+2021/05/31 05:10:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:10:05 [notice] 33#33: gracefully shutting down
+2021/05/31 05:10:05 [notice] 33#33: exiting
+2021/05/31 05:10:05 [notice] 33#33: exit
+2021/05/31 05:10:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:10:05 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:10:05 [notice] 1#1: exit
+2021/05/31 05:17:36 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:17:36 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:17:36 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:17:36 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:17:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:17:36 [notice] 1#1: start worker processes
+2021/05/31 05:17:36 [notice] 1#1: start worker process 33
+2021/05/31 05:19:50 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:19:50 [notice] 33#33: gracefully shutting down
+2021/05/31 05:19:50 [notice] 33#33: exiting
+2021/05/31 05:19:50 [notice] 33#33: exit
+2021/05/31 05:19:50 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:19:50 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:19:50 [notice] 1#1: exit
+2021/05/31 05:20:29 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:20:29 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:20:29 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:20:29 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:20:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:20:29 [notice] 1#1: start worker processes
+2021/05/31 05:20:29 [notice] 1#1: start worker process 32
+2021/05/31 05:21:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:21:33 [notice] 32#32: gracefully shutting down
+2021/05/31 05:21:33 [notice] 32#32: exiting
+2021/05/31 05:21:33 [notice] 32#32: exit
+2021/05/31 05:21:33 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/05/31 05:21:33 [notice] 1#1: worker process 32 exited with code 0
+2021/05/31 05:21:33 [notice] 1#1: exit
+2021/05/31 05:22:17 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:22:17 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:22:17 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:22:17 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:22:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:22:17 [notice] 1#1: start worker processes
+2021/05/31 05:22:17 [notice] 1#1: start worker process 33
+2021/05/31 05:22:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:22:44 [notice] 33#33: gracefully shutting down
+2021/05/31 05:22:44 [notice] 33#33: exiting
+2021/05/31 05:22:44 [notice] 33#33: exit
+2021/05/31 05:22:44 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:22:44 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:22:44 [notice] 1#1: exit
+2021/05/31 05:23:19 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:23:19 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:23:19 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:23:19 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:23:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:23:19 [notice] 1#1: start worker processes
+2021/05/31 05:23:19 [notice] 1#1: start worker process 32
+2021/05/31 05:24:24 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:24:24 [notice] 32#32: gracefully shutting down
+2021/05/31 05:24:24 [notice] 32#32: exiting
+2021/05/31 05:24:24 [notice] 32#32: exit
+2021/05/31 05:24:24 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/05/31 05:24:24 [notice] 1#1: worker process 32 exited with code 0
+2021/05/31 05:24:24 [notice] 1#1: exit
+2021/05/31 05:25:57 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:25:57 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:25:57 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:25:57 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:25:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:25:57 [notice] 1#1: start worker processes
+2021/05/31 05:25:57 [notice] 1#1: start worker process 33
+2021/05/31 05:26:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:26:00 [notice] 33#33: gracefully shutting down
+2021/05/31 05:26:00 [notice] 33#33: exiting
+2021/05/31 05:26:00 [notice] 33#33: exit
+2021/05/31 05:26:00 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:26:00 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:26:00 [notice] 1#1: exit
+2021/05/31 05:26:55 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:26:55 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:26:55 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:26:55 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:26:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:26:55 [notice] 1#1: start worker processes
+2021/05/31 05:26:55 [notice] 1#1: start worker process 33
+2021/05/31 05:26:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:26:58 [notice] 33#33: gracefully shutting down
+2021/05/31 05:26:58 [notice] 33#33: exiting
+2021/05/31 05:26:58 [notice] 33#33: exit
+2021/05/31 05:26:58 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:26:58 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:26:58 [notice] 1#1: exit
+2021/05/31 05:28:08 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:28:08 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:28:08 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:28:08 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:28:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:28:08 [notice] 1#1: start worker processes
+2021/05/31 05:28:08 [notice] 1#1: start worker process 33
+2021/05/31 05:28:33 [error] 33#33: *1 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 192.168.16.1, server: _, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.16.3:9000", host: "localhost"
+2021/05/31 05:29:43 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:29:43 [notice] 33#33: gracefully shutting down
+2021/05/31 05:29:43 [notice] 33#33: exiting
+2021/05/31 05:29:43 [notice] 33#33: exit
+2021/05/31 05:29:43 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:29:43 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:29:43 [notice] 1#1: exit
+2021/05/31 05:32:40 [notice] 1#1: using the "epoll" event method
+2021/05/31 05:32:40 [notice] 1#1: nginx/1.19.7
+2021/05/31 05:32:40 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/05/31 05:32:40 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/05/31 05:32:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/05/31 05:32:40 [notice] 1#1: start worker processes
+2021/05/31 05:32:40 [notice] 1#1: start worker process 33
+2021/05/31 05:35:12 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/05/31 05:35:12 [notice] 33#33: gracefully shutting down
+2021/05/31 05:35:12 [notice] 33#33: exiting
+2021/05/31 05:35:12 [notice] 33#33: exit
+2021/05/31 05:35:12 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/05/31 05:35:12 [notice] 1#1: worker process 33 exited with code 0
+2021/05/31 05:35:12 [notice] 1#1: exit
+2021/06/01 02:49:08 [notice] 1#1: using the "epoll" event method
+2021/06/01 02:49:08 [notice] 1#1: nginx/1.19.7
+2021/06/01 02:49:08 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/01 02:49:08 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/01 02:49:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/01 02:49:08 [notice] 1#1: start worker processes
+2021/06/01 02:49:08 [notice] 1#1: start worker process 35
+2021/06/12 14:33:12 [notice] 1#1: using the "epoll" event method
+2021/06/12 14:33:12 [notice] 1#1: nginx/1.19.7
+2021/06/12 14:33:12 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 14:33:12 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 14:33:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 14:33:12 [notice] 1#1: start worker processes
+2021/06/12 14:33:12 [notice] 1#1: start worker process 33
+2021/06/12 14:42:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 14:42:18 [notice] 33#33: gracefully shutting down
+2021/06/12 14:42:18 [notice] 33#33: exiting
+2021/06/12 14:42:18 [notice] 33#33: exit
+2021/06/12 14:42:18 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/12 14:42:18 [notice] 1#1: worker process 33 exited with code 0
+2021/06/12 14:42:18 [notice] 1#1: exit
+2021/06/12 14:42:48 [notice] 1#1: using the "epoll" event method
+2021/06/12 14:42:48 [notice] 1#1: nginx/1.19.7
+2021/06/12 14:42:48 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 14:42:48 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 14:42:48 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 14:42:48 [notice] 1#1: start worker processes
+2021/06/12 14:42:48 [notice] 1#1: start worker process 33
+2021/06/12 14:45:33 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 14:45:33 [notice] 33#33: gracefully shutting down
+2021/06/12 14:45:33 [notice] 33#33: exiting
+2021/06/12 14:45:33 [notice] 33#33: exit
+2021/06/12 14:45:33 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/12 14:45:33 [notice] 1#1: worker process 33 exited with code 0
+2021/06/12 14:45:33 [notice] 1#1: exit
+2021/06/12 14:45:56 [notice] 1#1: using the "epoll" event method
+2021/06/12 14:45:56 [notice] 1#1: nginx/1.19.7
+2021/06/12 14:45:56 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 14:45:56 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 14:45:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 14:45:56 [notice] 1#1: start worker processes
+2021/06/12 14:45:56 [notice] 1#1: start worker process 34
+2021/06/12 14:46:04 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 14:46:04 [notice] 34#34: gracefully shutting down
+2021/06/12 14:46:04 [notice] 34#34: exiting
+2021/06/12 14:46:04 [notice] 34#34: exit
+2021/06/12 14:46:05 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/12 14:46:05 [notice] 1#1: worker process 34 exited with code 0
+2021/06/12 14:46:05 [notice] 1#1: exit
+2021/06/12 14:46:24 [notice] 1#1: using the "epoll" event method
+2021/06/12 14:46:24 [notice] 1#1: nginx/1.19.7
+2021/06/12 14:46:24 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 14:46:24 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 14:46:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 14:46:24 [notice] 1#1: start worker processes
+2021/06/12 14:46:24 [notice] 1#1: start worker process 34
+2021/06/12 14:54:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 14:54:26 [notice] 34#34: gracefully shutting down
+2021/06/12 14:54:26 [notice] 34#34: exiting
+2021/06/12 14:54:26 [notice] 34#34: exit
+2021/06/12 14:54:26 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/12 14:54:26 [notice] 1#1: worker process 34 exited with code 0
+2021/06/12 14:54:26 [notice] 1#1: exit
+2021/06/12 14:54:50 [notice] 1#1: using the "epoll" event method
+2021/06/12 14:54:50 [notice] 1#1: nginx/1.19.7
+2021/06/12 14:54:50 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 14:54:50 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 14:54:50 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 14:54:50 [notice] 1#1: start worker processes
+2021/06/12 14:54:50 [notice] 1#1: start worker process 33
+2021/06/12 14:58:58 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 14:58:58 [notice] 33#33: gracefully shutting down
+2021/06/12 14:58:58 [notice] 33#33: exiting
+2021/06/12 14:58:58 [notice] 33#33: exit
+2021/06/12 14:58:58 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/12 14:58:58 [notice] 1#1: worker process 33 exited with code 0
+2021/06/12 14:58:58 [notice] 1#1: exit
+2021/06/12 15:01:21 [notice] 1#1: using the "epoll" event method
+2021/06/12 15:01:21 [notice] 1#1: nginx/1.19.7
+2021/06/12 15:01:21 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 15:01:21 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 15:01:21 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 15:01:21 [notice] 1#1: start worker processes
+2021/06/12 15:01:21 [notice] 1#1: start worker process 32
+2021/06/12 15:04:37 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 15:04:37 [notice] 32#32: gracefully shutting down
+2021/06/12 15:04:37 [notice] 32#32: exiting
+2021/06/12 15:04:37 [notice] 32#32: exit
+2021/06/12 15:04:37 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2021/06/12 15:04:37 [notice] 1#1: worker process 32 exited with code 0
+2021/06/12 15:04:37 [notice] 1#1: exit
+2021/06/12 15:08:17 [notice] 1#1: using the "epoll" event method
+2021/06/12 15:08:17 [notice] 1#1: nginx/1.19.7
+2021/06/12 15:08:17 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 15:08:17 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 15:08:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 15:08:17 [notice] 1#1: start worker processes
+2021/06/12 15:08:17 [notice] 1#1: start worker process 34
+2021/06/12 15:22:01 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 15:22:01 [notice] 34#34: gracefully shutting down
+2021/06/12 15:22:01 [notice] 34#34: exiting
+2021/06/12 15:22:01 [notice] 34#34: exit
+2021/06/12 15:22:01 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/12 15:22:01 [notice] 1#1: worker process 34 exited with code 0
+2021/06/12 15:22:01 [notice] 1#1: exit
+2021/06/12 15:43:34 [notice] 1#1: using the "epoll" event method
+2021/06/12 15:43:34 [notice] 1#1: nginx/1.19.7
+2021/06/12 15:43:34 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 15:43:34 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 15:43:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 15:43:34 [notice] 1#1: start worker processes
+2021/06/12 15:43:34 [notice] 1#1: start worker process 34
+2021/06/12 15:45:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 15:45:18 [notice] 34#34: gracefully shutting down
+2021/06/12 15:45:18 [notice] 34#34: exiting
+2021/06/12 15:45:18 [notice] 34#34: exit
+2021/06/12 15:45:18 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/12 15:45:18 [notice] 1#1: worker process 34 exited with code 0
+2021/06/12 15:45:18 [notice] 1#1: exit
+2021/06/12 15:47:16 [notice] 1#1: using the "epoll" event method
+2021/06/12 15:47:16 [notice] 1#1: nginx/1.19.7
+2021/06/12 15:47:16 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 15:47:16 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 15:47:16 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 15:47:16 [notice] 1#1: start worker processes
+2021/06/12 15:47:16 [notice] 1#1: start worker process 33
+2021/06/12 15:49:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 15:49:27 [notice] 33#33: gracefully shutting down
+2021/06/12 15:49:27 [notice] 33#33: exiting
+2021/06/12 15:49:27 [notice] 33#33: exit
+2021/06/12 15:49:27 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/12 15:49:27 [notice] 1#1: worker process 33 exited with code 0
+2021/06/12 15:49:27 [notice] 1#1: exit
+2021/06/12 15:54:17 [notice] 1#1: using the "epoll" event method
+2021/06/12 15:54:17 [notice] 1#1: nginx/1.19.7
+2021/06/12 15:54:17 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 15:54:17 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 15:54:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 15:54:17 [notice] 1#1: start worker processes
+2021/06/12 15:54:17 [notice] 1#1: start worker process 34
+2021/06/12 16:01:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 16:01:20 [notice] 34#34: gracefully shutting down
+2021/06/12 16:01:20 [notice] 34#34: exiting
+2021/06/12 16:01:20 [notice] 34#34: exit
+2021/06/12 16:01:20 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2021/06/12 16:01:20 [notice] 1#1: worker process 34 exited with code 0
+2021/06/12 16:01:20 [notice] 1#1: exit
+2021/06/12 16:01:51 [notice] 1#1: using the "epoll" event method
+2021/06/12 16:01:51 [notice] 1#1: nginx/1.19.7
+2021/06/12 16:01:51 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 16:01:51 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 16:01:51 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 16:01:51 [notice] 1#1: start worker processes
+2021/06/12 16:01:51 [notice] 1#1: start worker process 33
+2021/06/12 16:02:21 [error] 33#33: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/crud_data.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/crud_data.php on line 7PHP message: PHP Fatal error:  Uncaught Error: Class "PHPUnit\Framework\TestCase" not found in /docker/home/crud/crud_data.php:10
+Stack trace:
+#0 {main}
+  thrown in /docker/home/crud/crud_data.php on line 10" while reading response header from upstream, client: 172.30.0.1, server: _, request: "GET /crud/crud_data.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:31:22 [notice] 1#1: using the "epoll" event method
+2021/06/12 17:31:22 [notice] 1#1: nginx/1.19.7
+2021/06/12 17:31:22 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 17:31:22 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 17:31:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 17:31:22 [notice] 1#1: start worker processes
+2021/06/12 17:31:22 [notice] 1#1: start worker process 25
+2021/06/12 17:34:40 [error] 25#25: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 24 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(24): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:34:43 [info] 25#25: *1 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:38:25 [error] 25#25: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 24 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(24): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:38:28 [info] 25#25: *3 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:43:56 [error] 25#25: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 24 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(24): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:43:59 [info] 25#25: *5 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:44:15 [error] 25#25: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:44:18 [info] 25#25: *7 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:49:47 [error] 25#25: *9 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:49:50 [info] 25#25: *9 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:50:13 [error] 25#25: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function debug_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:50:16 [info] 25#25: *11 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:51:15 [error] 25#25: *13 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  include(/docker/home/functions.php): Failed to open stream: No such file or directory in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  include(): Failed opening '/docker/home/functions.php' for inclusion (include_path='.:/usr/local/lib/php') in /docker/home/crud/users_crud.php on line 7PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function console_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:51:18 [info] 25#25: *13 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:53:00 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function console_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:53:03 [info] 25#25: *15 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:54:27 [error] 25#25: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Undefined array key "id" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "username" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "email" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "pwd" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "age" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Warning:  Undefined variable $id in /docker/home/crud/users_crud.php on line 18PHP message: PHP Warning:  Undefined variable $username in /docker/home/crud/users_crud.php on line 18PHP message: PHP Warning:  Undefined variable $email in /docker/home/crud/users_crud.php on line 18PHP message: PHP Warning:  Undefined variable $pwd in /docker/home/crud/users_crud.php on line 18PHP message: PHP Warning:  Undefined variable $age in /docker/home/crud/users_crud.php on line 18PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function console_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:54:30 [info] 25#25: *17 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:56:15 [error] 25#25: *19 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: Call to undefined function console_log() in /docker/home/db/db.php:87
+Stack trace:
+#0 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 87" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:56:18 [info] 25#25: *19 client 172.30.0.1 closed keepalive connection
+2021/06/12 17:57:28 [error] 25#25: *21 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.30.0.3' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.30.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.30.0.3:9000", host: "localhost"
+2021/06/12 17:57:31 [info] 25#25: *21 client 172.30.0.1 closed keepalive connection
+2021/06/12 18:03:36 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 18:03:36 [notice] 25#25: gracefully shutting down
+2021/06/12 18:03:36 [notice] 25#25: exiting
+2021/06/12 18:03:36 [notice] 25#25: exit
+2021/06/12 18:03:36 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/06/12 18:03:36 [notice] 1#1: worker process 25 exited with code 0
+2021/06/12 18:03:36 [notice] 1#1: exit
+2021/06/12 18:06:04 [notice] 1#1: using the "epoll" event method
+2021/06/12 18:06:04 [notice] 1#1: nginx/1.19.7
+2021/06/12 18:06:04 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 18:06:04 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 18:06:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 18:06:04 [notice] 1#1: start worker processes
+2021/06/12 18:06:04 [notice] 1#1: start worker process 33
+2021/06/12 18:06:12 [error] 33#33: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.5' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(18): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.5:9000", host: "localhost"
+2021/06/12 18:06:15 [info] 33#33: *1 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:38:38 [notice] 1#1: using the "epoll" event method
+2021/06/12 21:38:38 [notice] 1#1: nginx/1.19.7
+2021/06/12 21:38:38 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 21:38:38 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 21:38:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 21:38:38 [notice] 1#1: start worker processes
+2021/06/12 21:38:38 [notice] 1#1: start worker process 33
+2021/06/12 21:39:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/12 21:39:14 [notice] 33#33: gracefully shutting down
+2021/06/12 21:39:14 [notice] 33#33: exiting
+2021/06/12 21:39:14 [notice] 33#33: exit
+2021/06/12 21:39:14 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2021/06/12 21:39:14 [notice] 1#1: worker process 33 exited with code 0
+2021/06/12 21:39:14 [notice] 1#1: exit
+2021/06/12 21:39:29 [notice] 1#1: using the "epoll" event method
+2021/06/12 21:39:29 [notice] 1#1: nginx/1.19.7
+2021/06/12 21:39:29 [notice] 1#1: built by gcc 10.2.1 20201203 (Alpine 10.2.1_pre1) 
+2021/06/12 21:39:29 [notice] 1#1: OS: Linux 5.10.25-linuxkit
+2021/06/12 21:39:29 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2021/06/12 21:39:29 [notice] 1#1: start worker processes
+2021/06/12 21:39:29 [notice] 1#1: start worker process 25
+2021/06/12 21:39:42 [error] 25#25: *1 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 24 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(24): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:39:45 [info] 25#25: *1 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:54:39 [error] 25#25: *3 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 17PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 17PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:54:42 [info] 25#25: *3 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:56:04 [error] 25#25: *5 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 26 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(26): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:56:07 [info] 25#25: *5 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:56:14 [error] 25#25: *7 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:56:17 [info] 25#25: *7 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:56:23 [error] 25#25: *9 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:56:26 [info] 25#25: *9 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:57:16 [error] 25#25: *11 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:57:19 [info] 25#25: *11 client 172.18.0.1 closed keepalive connection
+2021/06/12 21:58:06 [error] 25#25: *13 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 21:58:09 [info] 25#25: *13 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:00:13 [error] 25#25: *15 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:00:17 [info] 25#25: *15 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:01:05 [error] 25#25: *17 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:01:08 [info] 25#25: *17 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:02:07 [error] 25#25: *19 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:02:08 [error] 25#25: *19 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:02:11 [info] 25#25: *19 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:02:15 [error] 25#25: *22 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:02:18 [info] 25#25: *22 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:05:27 [error] 25#25: *24 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught TypeError: db(): Return value must be of type MyDB, null returned in /docker/home/db/db.php:271
+Stack trace:
+#0 /docker/home/crud/users_crud.php(20): db()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 271" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:05:30 [info] 25#25: *24 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:11:33 [error] 25#25: *26 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 26 and defined in /docker/home/db/db.php:166
+Stack trace:
+#0 /docker/home/crud/users_crud.php(26): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 166" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:11:36 [info] 25#25: *26 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:11:47 [error] 25#25: *28 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 13PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:89
+Stack trace:
+#0 /docker/home/db/db.php(89): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 89" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:11:50 [info] 25#25: *28 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:12:26 [error] 25#25: *30 FastCGI sent in stderr: "PHP message: PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'nakun'@'172.18.0.4' (using password: YES) in /docker/home/db/db.php on line 15PHP message: PHP Fatal error:  Uncaught Error: mysqli object is already closed in /docker/home/db/db.php:91
+Stack trace:
+#0 /docker/home/db/db.php(91): mysqli->stmt_init()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 91" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:12:29 [info] 25#25: *30 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:12:54 [error] 25#25: *32 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::__construct(): Argument #5 ($port) must be of type int, string given, called in /docker/home/db/db.php on line 266 and defined in /docker/home/db/db.php:9
+Stack trace:
+#0 /docker/home/db/db.php(266): MyDB->__construct()
+#1 /docker/home/crud/users_crud.php(6): include('...')
+#2 {main}
+  thrown in /docker/home/db/db.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:12:58 [info] 25#25: *32 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:13:11 [error] 25#25: *34 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::__construct(): Argument #5 ($port) must be of type int, string given, called in /docker/home/db/db.php on line 266 and defined in /docker/home/db/db.php:9
+Stack trace:
+#0 /docker/home/db/db.php(266): MyDB->__construct()
+#1 /docker/home/crud/users_crud.php(6): include('...')
+#2 {main}
+  thrown in /docker/home/db/db.php on line 9" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:13:14 [info] 25#25: *34 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:14:20 [error] 25#25: *36 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 26 and defined in /docker/home/db/db.php:168
+Stack trace:
+#0 /docker/home/crud/users_crud.php(26): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 168" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:14:23 [info] 25#25: *36 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:14:38 [error] 25#25: *38 FastCGI sent in stderr: "PHP message: PHP Warning:  error_log(/docker/logs/php_runtime.log): Failed to open stream: No such file or directory in /docker/home/functions.php on line 9PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(98): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:14:41 [info] 25#25: *38 client 172.18.0.1 closed keepalive connection
+2021/06/12 22:15:35 [error] 25#25: *40 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(98): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/12 22:15:38 [info] 25#25: *40 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:19:44 [error] 25#25: *42 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 26 and defined in /docker/home/db/db.php:168
+Stack trace:
+#0 /docker/home/crud/users_crud.php(26): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 168" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:19:48 [info] 25#25: *42 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:19:59 [error] 25#25: *44 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(98): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:22:20 [error] 25#25: *46 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 26 and defined in /docker/home/db/db.php:169
+Stack trace:
+#0 /docker/home/crud/users_crud.php(26): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 169" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:22:23 [info] 25#25: *46 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:22:36 [error] 25#25: *48 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:22:39 [info] 25#25: *48 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:38:57 [error] 25#25: *50 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:39:00 [info] 25#25: *50 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:39:07 [error] 25#25: *52 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:39:10 [info] 25#25: *52 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:39:30 [error] 25#25: *54 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:39:33 [info] 25#25: *54 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:42:08 [error] 25#25: *56 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(20): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:42:11 [info] 25#25: *56 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:48:54 [error] 25#25: *58 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:48:57 [info] 25#25: *58 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:50:53 [error] 25#25: *60 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:50:56 [info] 25#25: *60 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:51:34 [error] 25#25: *62 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:51:37 [info] 25#25: *62 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:54:08 [error] 25#25: *64 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:54:11 [info] 25#25: *64 client 172.18.0.1 closed keepalive connection
+2021/06/13 03:54:42 [error] 25#25: *66 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 03:54:45 [info] 25#25: *66 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:14:54 [error] 25#25: *68 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "col1" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "col2" in /docker/home/crud/users_crud.php on line 12PHP message: PHP Warning:  Undefined array key "col3" in /docker/home/crud/users_crud.php on line 13PHP message: PHP Warning:  Undefined array key "col4" in /docker/home/crud/users_crud.php on line 14PHP message: PHP Warning:  Undefined array key "col5" in /docker/home/crud/users_crud.php on line 15PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 34 and defined in /docker/home/db/db.php:169
+Stack trace:
+#0 /docker/home/crud/users_crud.php(34): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 169" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:14:57 [info] 25#25: *68 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:15:09 [error] 25#25: *70 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:15:12 [info] 25#25: *70 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:15:20 [error] 25#25: *72 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:15:23 [info] 25#25: *72 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:15:24 [error] 25#25: *74 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:15:27 [info] 25#25: *74 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:16:56 [error] 25#25: *76 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ":", expecting "->" or "?->" or "{" or "[" in /docker/home/db/db.php on line 59" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:16:59 [info] 25#25: *76 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:17:14 [error] 25#25: *78 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ":", expecting "->" or "?->" or "{" or "[" in /docker/home/db/db.php on line 59" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:17:17 [info] 25#25: *78 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:17:50 [error] 25#25: *80 FastCGI sent in stderr: "PHP message: PHP Parse error:  syntax error, unexpected token ",", expecting "->" or "?->" or "{" or "[" in /docker/home/db/db.php on line 59" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:17:53 [info] 25#25: *80 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:18:02 [error] 25#25: *82 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:18:05 [info] 25#25: *82 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:18:40 [error] 25#25: *84 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:18:43 [info] 25#25: *84 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:19:10 [error] 25#25: *86 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:19:13 [info] 25#25: *86 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:19:55 [error] 25#25: *88 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:19:58 [info] 25#25: *88 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:20:04 [error] 25#25: *90 FastCGI sent in stderr: "PHP message: PHP Warning:  Array to string conversion in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:20:07 [info] 25#25: *90 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:20:20 [error] 25#25: *92 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 0 in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:20:23 [info] 25#25: *92 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:21:00 [error] 25#25: *94 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:21:03 [info] 25#25: *94 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:21:19 [error] 25#25: *96 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:21:22 [info] 25#25: *96 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:21:32 [error] 25#25: *98 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 25PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0,1,2,3,4 ) VALUES ( ?,?,?,?,? )' at line 1
+INSERT INTO users ( 0,1,2,3,4 ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(28): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:21:35 [info] 25#25: *98 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:26:22 [error] 25#25: *100 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 35 and defined in /docker/home/db/db.php:169
+Stack trace:
+#0 /docker/home/crud/users_crud.php(35): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 169" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:26:25 [info] 25#25: *100 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:26:33 [error] 25#25: *102 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26PHP message: PHP Warning:  Array to string conversion in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: Table 'oniyuni.users' doesn't exist
+INSERT INTO users ( id,username,email,pwd,age ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(29): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:26:36 [info] 25#25: *102 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:27:45 [error] 25#25: *104 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: Table 'oniyuni.users' doesn't exist
+INSERT INTO users ( id,username,email,pwd,age ) VALUES ( ?,?,?,?,? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(99): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(29): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:27:48 [info] 25#25: *104 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:29:52 [error] 25#25: *106 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:29:53 [error] 25#25: *106 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "table" in /docker/home/crud/users_crud.php on line 9PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26PHP message: PHP Fatal error:  Uncaught TypeError: MyDB::rows(): Argument #1 ($table) must be of type string, null given, called in /docker/home/crud/users_crud.php on line 35 and defined in /docker/home/db/db.php:169
+Stack trace:
+#0 /docker/home/crud/users_crud.php(35): MyDB->rows()
+#1 {main}
+  thrown in /docker/home/db/db.php on line 169" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:29:56 [info] 25#25: *106 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:31:23 [error] 25#25: *109 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:31:27 [info] 25#25: *109 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:31:34 [error] 25#25: *111 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:31:34 [error] 25#25: *111 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:31:37 [info] 25#25: *111 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:31:44 [error] 25#25: *114 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:31:44 [error] 25#25: *114 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:31:47 [info] 25#25: *114 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:33:25 [error] 25#25: *117 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:33:29 [info] 25#25: *117 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:33:36 [error] 25#25: *119 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:33:36 [error] 25#25: *119 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:33:39 [info] 25#25: *119 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:33:42 [error] 25#25: *122 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //update.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:33:45 [info] 25#25: *122 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:33:53 [error] 25#25: *124 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //update.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:33:56 [info] 25#25: *124 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:34:40 [error] 25#25: *126 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:34:43 [info] 25#25: *126 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:34:46 [error] 25#25: *128 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:34:46 [error] 25#25: *128 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:34:49 [info] 25#25: *128 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:35:12 [error] 25#25: *131 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:35:12 [error] 25#25: *131 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Trying to access array offset on value of type null in /docker/home/crud/users_crud.php on line 26" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:35:15 [info] 25#25: *131 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:39:26 [error] 25#25: *134 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:39:29 [info] 25#25: *134 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:45:39 [error] 25#25: *136 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:45:42 [info] 25#25: *136 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:46:10 [error] 25#25: *138 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:46:13 [info] 25#25: *138 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:47:02 [error] 25#25: *140 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:47:47 [info] 25#25: *140 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:47:52 [error] 25#25: *142 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:47:55 [info] 25#25: *142 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:49:07 [info] 25#25: *144 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:50:07 [error] 25#25: *146 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:50:10 [info] 25#25: *146 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:50:16 [info] 25#25: *148 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:53:01 [error] 25#25: *150 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:53:05 [info] 25#25: *150 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:53:25 [error] 25#25: *152 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/db/db.php on line 63PHP message: PHP Fatal error:  Uncaught RuntimeException:  ------ Mysql error: Field 'username' doesn't have a default value
+INSERT INTO users ( id ) VALUES ( ? ) in /docker/home/db/db.php:25
+Stack trace:
+#0 /docker/home/db/db.php(116): MyDB->handleError()
+#1 /docker/home/crud/users_crud.php(34): MyDB->insert()
+#2 {main}
+  thrown in /docker/home/db/db.php on line 25" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:53:28 [info] 25#25: *152 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:53:59 [info] 25#25: *154 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:54:07 [info] 25#25: *156 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:56:01 [info] 25#25: *158 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:56:28 [info] 25#25: *160 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:57:01 [info] 25#25: *162 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:57:41 [info] 25#25: *164 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:57:48 [info] 25#25: *166 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:59:08 [error] 25#25: *168 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 04:59:11 [info] 25#25: *168 client 172.18.0.1 closed keepalive connection
+2021/06/13 04:59:21 [info] 25#25: *170 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:00:52 [error] 25#25: *172 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:00:56 [info] 25#25: *172 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:01:13 [error] 25#25: *174 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:13 [error] 25#25: *174 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:16 [info] 25#25: *174 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:01:22 [error] 25#25: *177 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/db/db.php on line 63" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:22 [error] 25#25: *177 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:25 [info] 25#25: *177 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:01:30 [info] 25#25: *180 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:01:36 [error] 25#25: *182 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:36 [error] 25#25: *182 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:01:39 [info] 25#25: *182 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:02:36 [error] 25#25: *185 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key 1 in /docker/home/db/db.php on line 63" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:02:37 [error] 25#25: *185 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:02:40 [info] 25#25: *185 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:05:36 [error] 25#25: *188 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:05:39 [info] 25#25: *188 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:08:28 [error] 25#25: *191 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:08:31 [info] 25#25: *191 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:08:57 [error] 25#25: *194 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:09:00 [info] 25#25: *194 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:09:20 [error] 25#25: *197 FastCGI sent in stderr: "PHP message: PHP Warning:  Undefined array key "user_info" in /docker/home/crud/users_crud.php on line 11PHP message: PHP Warning:  Undefined array key "where_map" in /docker/home/crud/users_crud.php on line 12" while reading response header from upstream, client: 172.18.0.1, server: _, request: "POST //crud/users_crud.php HTTP/1.1", upstream: "fastcgi://172.18.0.4:9000", host: "localhost"
+2021/06/13 05:09:23 [info] 25#25: *197 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:09:32 [info] 25#25: *200 client 172.18.0.1 closed keepalive connection
+2021/06/13 05:10:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2021/06/13 05:10:16 [notice] 25#25: gracefully shutting down
+2021/06/13 05:10:16 [notice] 25#25: exiting
+2021/06/13 05:10:16 [notice] 25#25: exit
+2021/06/13 05:10:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2021/06/13 05:10:16 [notice] 1#1: worker process 25 exited with code 0
+2021/06/13 05:10:16 [notice] 1#1: exit
