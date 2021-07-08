@@ -173,8 +173,6 @@ class MyDB
 
     public function rows(string $table, array $conds = [], $select = '*')
     {
-        
-        
         try {
             
             $stmt = $this->connection->stmt_init();

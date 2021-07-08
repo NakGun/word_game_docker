@@ -37,8 +37,11 @@ if ($crud_tp == 'insert') {
     echo json_encode($rows);
     // 아래와 같이 하면 테이블의 타입대로 넘겨준다.
     // echo trim(json_encode($row_set,JSON_NUMERIC_CHECK));
-} elseif($crud_tp == 'search') {
+} elseif($crud_tp == 'all') {
     $rows = db()->rows($table);
+    echo json_encode($rows);
+} elseif($crud_tp == 'mine') {
+    $rows = db()->rows($table, $where_map);
     echo json_encode($rows);
 } else {
     echo 'fail';
