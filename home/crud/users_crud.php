@@ -42,7 +42,7 @@ if ($crud_tp == 'insert') {
     echo json_encode($rows);
 } elseif($crud_tp == 'mine') {
     $row = db()->row($table, $where_map);
-    echo json_encode($rows);
+    echo json_encode($row);
 } else {
     echo 'fail';
 }
