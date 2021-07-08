@@ -220,14 +220,14 @@ class MyDB
     public function row(string $table, array $conds = [], $select = '*')
     {
         $rows = $this->rows($table, $conds, $select);
-        if ( ! $rows ) return $rows[0];
+        if ( ! $rows ) return 'Fail';
         return $rows[0];
     }
 
     //conds = null 인 경우 조회건수를 가져오게 됨 아니면 조회리스트
     public function column(string $table, array $conds = [], $select = '*') {
         $row = $this->row( $table, $conds, $select );
-        if ( ! $row ) return 'Fail';
+        if ( ! $row ) return null;
     
         return $row[$select];
     }
