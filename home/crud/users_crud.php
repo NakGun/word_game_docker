@@ -11,6 +11,8 @@ $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
+echo 'why';
+echo $table;
 echo 'table : '.$table;
 echo 'table : '.$crud_tp;
 echo 'table : '.$user_info;
