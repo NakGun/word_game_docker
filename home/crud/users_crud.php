@@ -12,6 +12,7 @@ $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
 file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
+
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
     echo $table.$user_info;
