@@ -18,6 +18,8 @@ if ($crud_tp == 'insert') {
     echo $table.$user_info;
 } elseif($crud_tp == 'update') {
     db()->update($table, $user_info, $where_map);
+    $row = db()->row($table, $where_map);
+    echo json_encode($row);
 } elseif($crud_tp == 'delete') {
     db()->delete($table, $where_map);
     //삭제 후 조회값 리턴
