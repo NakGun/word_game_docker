@@ -11,9 +11,6 @@ $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
-echo $table;
-echo $crud_tp;
-
 
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
