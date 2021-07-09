@@ -11,7 +11,7 @@ $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
-
+file_put_contents('myDebug',"'.input.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n", FILE_APPEND | LOCK_EX);
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
 } elseif($crud_tp == 'update') {
