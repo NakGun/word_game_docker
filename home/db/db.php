@@ -98,6 +98,10 @@ class MyDB
 
         // 입력 받은 테이블과 레코드 정보를 바탕으로 SQL 문장을 만든다.
         $parsed = $this->parseRecord( $record ); //입력받은 키:밸류 형식인 record를 정의한 함수를 통해 변수에 나눠담음 
+
+        echo 'fields : '+$parsed[fields];
+        echo 'values : '+$parsed[values];
+
         $sql = "INSERT INTO $table ( $parsed[fields] ) VALUES ( $parsed[values] )";
         $re = $stmt->prepare($sql);
         if (!$re) {
@@ -114,7 +118,8 @@ class MyDB
         // SQL 문장을 바탕으로 값의 타입(형)과 값을 바인드
         // 예시) $stmt->bind_param(ssi, 'nakun','nakun@naver.com',43); //앞에 ssi s는 string, i는 int
         $stmt->bind_param($types, ...$values);
-
+        
+        echo 'values : '+$$stmt;
         // 쿼리수행
         $re = $stmt->execute();
         if (!$re) {

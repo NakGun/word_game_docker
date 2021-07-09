@@ -10,21 +10,11 @@ $table 	    = $_POST['table'];
 $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
-// $id 		= $_POST['col1'];
-// $username 	= $_POST['col2'];
-// $email 		= $_POST['col3'];
-// $pwd 		= $_POST['col4'];
-// $age 		= $_POST['col5'];
 
-// $employee_list = array(
-//     $id,
-//     $username,
-//     $email,
-//     $pwd,
-//     $age
-// );
-
-// file_put_contents('myDebug',"'.usercrud.','".$user_info[1]."'\n", FILE_APPEND | LOCK_EX);
+echo 'table : '+$table;
+echo 'table : '+$crud_tp;
+echo 'table : '+$user_info;
+echo 'table : '+$where_map;
 
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
