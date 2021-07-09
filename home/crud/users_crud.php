@@ -13,8 +13,7 @@ $where_map  = $_POST['where_map'];
 
 echo $table;
 echo $crud_tp;
-print $user_info;
-print $where_map;
+
 
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
