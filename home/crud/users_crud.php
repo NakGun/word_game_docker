@@ -15,7 +15,7 @@ file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_
 file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
 if ($crud_tp == 'insert') {
     db()->insert($table, $user_info);
-    echo $table.$user_info;
+    echo '1';
 } elseif($crud_tp == 'update') {
     db()->update($table, $user_info, $where_map);
     $row = db()->row($table, $where_map);
