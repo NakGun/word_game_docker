@@ -192,7 +192,7 @@ class MyDB
                 $re = $stmt->bind_param($types, ...$values);
             //조건절이 없을떄
             } else {
-                $sql = "SELECT $select FROM $table ORDER BY count";
+                $sql = "SELECT $select FROM $table ORDER BY count desc";
                 
                 $stmt->prepare($sql);
             }
