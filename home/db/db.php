@@ -193,6 +193,7 @@ class MyDB
             //조건절이 없을떄
             } else {
                 $sql = "SELECT $select FROM $table ORDER BY count";
+                
                 $stmt->prepare($sql);
             }
 
