@@ -227,6 +227,36 @@ class MyDB
         return $rows[0];
     }
 
+
+    public function ranking(string $table, $select = 'count')
+    {
+        try {
+            
+            $stmt = $this->connection->stmt_init();
+            
+            $sql = "SELECT RANK() OVER ( ORDER BY count desc ) FROM $table";
+            
+            $stmt->prepare($sql);
+            
+            $stmt->execute();
+
+            $result = $stmt->get_result(); // get the mysqli result
+            if ( $result === false ) {
+
+                $this->handleError("SQL ERROR on row()", $sql);
+                return 0;
+            }
+            /* 조회쿼리결과리턴 */
+            $rets = [];
+            while ($row = $result->fetch_assoc()) {
+                $rets[] = $row;
+            }
+            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
+        } catch (mysqli_sql_exception $e) {
+            $this->handleError($e->__toString(), "SQL: " . $sql);
+        }
+    }
+
     //conds = null 인 경우 조회건수를 가져오게 됨 아니면 조회리스트
     public function column(string $table, array $conds = [], $select = '*') {
         $row = $this->row( $table, $conds, $select );

@@ -33,7 +33,7 @@ if ($crud_tp == 'insert') {
     // 아래와 같이 하면 테이블의 타입대로 넘겨준다.
     // echo trim(json_encode($row_set,JSON_NUMERIC_CHECK));
 } elseif($crud_tp == 'ranking') {
-    $rows = db()->rows($table, $conds, $select);
+    $rows = db()->ranking($table);
     echo json_encode($rows);
 } elseif($crud_tp == 'all') {
     $rows = db()->rows($table);
