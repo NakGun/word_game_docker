@@ -10,7 +10,9 @@ $table 	    = $_POST['table'];
 $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
-$select     = 'rownum';
+
+$conds  = [];
+$select = 'rownum';
 
 file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
 file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
@@ -31,8 +33,7 @@ if ($crud_tp == 'insert') {
     // 아래와 같이 하면 테이블의 타입대로 넘겨준다.
     // echo trim(json_encode($row_set,JSON_NUMERIC_CHECK));
 } elseif($crud_tp == 'ranking') {
-    //$rows = db()->rows($table, null, $select);
-    $rows = db()->rows($table);
+    $rows = db()->rows($table, $conds, $select);
     echo json_encode($rows);
 } elseif($crud_tp == 'all') {
     $rows = db()->rows($table);
