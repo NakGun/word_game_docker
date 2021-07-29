@@ -228,13 +228,13 @@ class MyDB
     }
 
 
-    public function ranking(string $table, $select = 'count')
+    public function ranking(string $table, array $conds = [], $select = '*'))
     {
         try {
             
             $stmt = $this->connection->stmt_init();
             
-            $sql = "SELECT RANK() OVER ( ORDER BY count desc ) FROM $table";
+            $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE $parsed[fields] and COUNT > T.COUNT) as ranking FROM $table as T WHERE NAME = $username ORDER BY COUNT";
             
             $stmt->prepare($sql);
             
