@@ -260,7 +260,8 @@ class MyDB
             //조건절이 있을때
             if ( $conds ) {
                 $parsed = $this->parseRecord( $conds, 'where' );
-                $sql = "SELECT $select FROM $table WHERE $parsed[fields]";
+                // $sql = "SELECT $select FROM $table WHERE $parsed[fields]";
+                $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) FROM $table T WHERE $where[fields] ORDER BY T.COUNT";
                 $stmt->prepare($sql);
                 $re = $stmt->prepare($sql);
                 if (!$re) {
