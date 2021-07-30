@@ -11,8 +11,11 @@ $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
-// file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
-// file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
+$conds  = [];
+$select = 'rownum';
+
+file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
+file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
 
 
 if ($crud_tp == 'insert') {
@@ -34,11 +37,7 @@ if ($crud_tp == 'insert') {
     echo json_encode($rows);
 } elseif($crud_tp == 'mine') {
     $row = db()->row($table, $where_map);
-    // echo json_encode($row);
-    echo 'Fail';
-} elseif($crud_tp == 'ranking') {
-    $rows = db()->ranking($table, $where_map);
-    echo json_encode($rows);
+    echo json_encode($row);
 } else {
     echo 'fail';
 }
