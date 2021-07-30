@@ -256,23 +256,26 @@ class MyDB
         // }
         try {
             
-
-           
             $stmt = $this->connection->stmt_init();
-            $where = $this->parseRecord( $conds, 'where' );
-            
-            // $sql = "SELECT $select FROM $table ORDER BY count desc";
-            //$sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > t.COUNT) as ranking FROM $table as t WHERE $where[fields] ORDER BY COUNT";
-            // $sql = "SELECT $select FROM $table WHERE $where[fields] ORDER BY count desc";
-            $sql = "SELECT $select FROM $table WHERE $where[fields]";
-            
-            $re = $stmt->prepare($sql);
-            if (!$re) {
-                $this->handleError($this->connection->error, $sql);
+            //조건절이 있을때
+            if ( $conds ) {
+                $parsed = $this->parseRecord( $conds, 'where' );
+                $sql = "SELECT $select FROM $table WHERE $parsed[fields]";
+                $stmt->prepare($sql);
+                $re = $stmt->prepare($sql);
+                if (!$re) {
+                    $this->handleError($this->connection->error, $sql);
+                }
+                $values = array_values($conds);
+                $types = $this->types($values);
+                $re = $stmt->bind_param($types, ...$values);
+            //조건절이 없을떄
+            } else {
+                $sql = "SELECT $select FROM $table ORDER BY count desc";
+                
+                $stmt->prepare($sql);
             }
-            $values = array_values($conds);
-            $types = $this->types($values);
-            $re = $stmt->bind_param($types, ...$values);
+
             
             $stmt->execute();
 
@@ -287,7 +290,7 @@ class MyDB
             while ($row = $result->fetch_assoc()) {
                 $rets[] = $row;
             }
-            return $rets[]; //조회리스트 또는 조회건수를 리턴하게됨
+            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
             $this->handleError($e->__toString(), "SQL: " . $sql);
         }
