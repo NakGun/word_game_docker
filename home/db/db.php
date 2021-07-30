@@ -227,42 +227,15 @@ class MyDB
 
     public function ranking(string $table, array $conds = [], $select = '*')
     {
-        // try {
-            
-        //     $stmt = $this->connection->stmt_init();
-            
-        //     //$where = $this->parseRecord( $conds, 'where' );
-            
-        //     // $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) FROM $table T WHERE $where[fields] ORDER BY T.COUNT";
-        //     $sql = "SELECT * FROM USERS";
-        //     $stmt->prepare($sql);
-            
-        //     $stmt->execute();
-
-        //     $result = $stmt->get_result(); // get the mysqli result
-        //     if ( $result === false ) {
-
-        //         $this->handleError("SQL ERROR on row()", $sql);
-        //         return [];
-        //     }
-        //     /* 조회쿼리결과리턴 */
-        //     $rets = [];
-        //     while ($row = $result->fetch_assoc()) {
-        //         $rets = $row;
-        //     }
-        //     return $rets; //조회리스트 또는 조회건수를 리턴하게됨
-        // } catch (mysqli_sql_exception $e) {
-        //     $this->handleError($e->__toString(), "SQL: " . $sql);
-        // }
         try {
             
             $stmt = $this->connection->stmt_init();
             
-            $sql = "SELECT $select FROM $table ORDER BY count desc";
+            //$where = $this->parseRecord( $conds, 'where' );
             
+            $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) FROM $table T WHERE $where[fields] ORDER BY T.COUNT";
+            // $sql = "SELECT * FROM USERS";
             $stmt->prepare($sql);
-            
-
             
             $stmt->execute();
 
@@ -275,12 +248,13 @@ class MyDB
             /* 조회쿼리결과리턴 */
             $rets = [];
             while ($row = $result->fetch_assoc()) {
-                $rets[] = $row;
+                $rets = $row;
             }
             return $rets; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
             $this->handleError($e->__toString(), "SQL: " . $sql);
         }
+        
     }
 
     //conds = null 인 경우 조회건수를 가져오게 됨 아니면 조회리스트
