@@ -246,11 +246,11 @@ class MyDB
                 return 0;
             }
             /* 조회쿼리결과리턴 */
-            $rets = 0;
+            $rets = [];
             while ($row = $result->fetch_assoc()) {
                 $rets = $row;
             }
-            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
+            return $rets[0]; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
             $this->handleError($e->__toString(), "SQL: " . $sql);
         }
