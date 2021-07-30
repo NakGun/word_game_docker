@@ -265,7 +265,6 @@ class MyDB
             //$sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > t.COUNT) as ranking FROM $table as t WHERE $where[fields] ORDER BY COUNT";
             // $sql = "SELECT $select FROM $table WHERE $where[fields] ORDER BY count desc";
             $sql = "SELECT $select FROM $table WHERE $where[fields]";
-            $stmt->prepare($sql);
             
             $re = $stmt->prepare($sql);
             if (!$re) {
