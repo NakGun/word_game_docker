@@ -257,9 +257,10 @@ class MyDB
         try {
             
             $stmt = $this->connection->stmt_init();
-            
-            $sql = "SELECT $select FROM $table ORDER BY count desc";
-            
+            $where = $this->parseRecord( $conds, 'where' );
+            // $sql = "SELECT $select FROM $table ORDER BY count desc";
+            $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) as ranking FROM $table as T WHERE $where[fields] ORDER BY T.COUNT";
+
             $stmt->prepare($sql);
             
 
