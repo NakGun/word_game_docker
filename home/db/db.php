@@ -234,7 +234,7 @@ class MyDB
             $where = $this->parseRecord( $conds, 'where' );
             
             // $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) FROM $table T WHERE $where[fields] ORDER BY T.COUNT";
-            $sql = "SELECT * FROM $table ORDER BY count";
+            $sql = "SELECT * FROM $table";
             $stmt->prepare($sql);
             
             $stmt->execute();
