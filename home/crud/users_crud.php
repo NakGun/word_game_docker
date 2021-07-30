@@ -11,9 +11,6 @@ $crud_tp 	= $_POST['crud_tp'];
 $user_info  = $_POST['user_info'];
 $where_map  = $_POST['where_map'];
 
-$conds  = [];
-$select = 'rownum';
-
 file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
 file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
 
