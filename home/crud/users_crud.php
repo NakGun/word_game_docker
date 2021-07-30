@@ -34,7 +34,8 @@ if ($crud_tp == 'insert') {
     echo json_encode($rows);
 } elseif($crud_tp == 'mine') {
     $row = db()->row($table, $where_map);
-    echo json_encode($row);
+    // echo json_encode($row);
+    echo 'Fail';
 } elseif($crud_tp == 'ranking') {
     $rows = db()->ranking($table, $where_map);
     echo json_encode($rows);
