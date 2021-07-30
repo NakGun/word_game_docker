@@ -267,7 +267,13 @@ class MyDB
             $sql = "SELECT $select FROM $table WHERE $where[fields]";
             $stmt->prepare($sql);
             
-
+            $re = $stmt->prepare($sql);
+            if (!$re) {
+                $this->handleError($this->connection->error, $sql);
+            }
+            $values = array_values($conds);
+            $types = $this->types($values);
+            $re = $stmt->bind_param($types, ...$values);
             
             $stmt->execute();
 
@@ -282,7 +288,7 @@ class MyDB
             while ($row = $result->fetch_assoc()) {
                 $rets[] = $row;
             }
-            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
+            return $rets[]; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
             $this->handleError($e->__toString(), "SQL: " . $sql);
         }
