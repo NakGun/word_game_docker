@@ -5,17 +5,17 @@ use PHPUnit\Framework\TestCase;
 
 echo 'Fail';
 
-include '/docker/home/db/db.php';  
-include '/docker/home/functions.php';
+// include '/docker/home/db/db.php';  
+// include '/docker/home/functions.php';
 
-$table 	    = $_POST['table'];
-$crud_tp 	= $_POST['crud_tp'];
-$user_info  = $_POST['user_info'];
-$where_map  = $_POST['where_map'];
+// $table 	    = $_POST['table'];
+// $crud_tp 	= $_POST['crud_tp'];
+// $user_info  = $_POST['user_info'];
+// $where_map  = $_POST['where_map'];
 
 
-file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
-file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
+// file_put_contents('debug.txt',"'.input==.','".$table."','".$crud_tp."','".$user_info."','".$where_map."',\n");
+// file_put_contents('debug',"'.parseRecord.','".$crud_tp."','".$user_info."',\n", FILE_APPEND | LOCK_EX);
 
 
 
