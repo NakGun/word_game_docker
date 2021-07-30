@@ -225,7 +225,7 @@ class MyDB
         // $rows = $this->rows($table, $conds, $select);
         // if ( ! $rows ) return 'Fail';
         // return $rows[0];
-        return 'Fail'
+        return 'Fail';
     }
 
     public function ranking(string $table, array $conds = [], $select = '*'))
@@ -257,6 +257,7 @@ class MyDB
         // } catch (mysqli_sql_exception $e) {
         //     $this->handleError($e->__toString(), "SQL: " . $sql);
         // }
+        return 'Fail';
     }
 
     //conds = null 인 경우 조회건수를 가져오게 됨 아니면 조회리스트
