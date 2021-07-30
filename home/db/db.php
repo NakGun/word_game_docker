@@ -222,7 +222,7 @@ class MyDB
 
     public function row(string $table, array $conds = [], $select = '*')
     {
-        $rows = $this->rows($table, $conds, $select);
+       // $rows = $this->rows($table, $conds, $select);
         if ( ! $rows ) return 'Fail';
         return $rows[0];
     }
