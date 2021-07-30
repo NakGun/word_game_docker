@@ -217,47 +217,43 @@ class MyDB
         }
     }
 
-    
-    
 
     public function row(string $table, array $conds = [], $select = '*')
     {
-        // $rows = $this->rows($table, $conds, $select);
-        // if ( ! $rows ) return 'Fail';
-        // return $rows[0];
-        return 'Fail';
+        $rows = $this->rows($table, $conds, $select);
+        if ( ! $rows ) return 'Fail';
+        return $rows[0];
     }
 
-    public function ranking(string $table, array $conds = [], $select = '*'))
+    public function ranking(string $table, array $conds = [], $select = '*')
     {
-        // try {
+        try {
             
-        //     $stmt = $this->connection->stmt_init();
+            $stmt = $this->connection->stmt_init();
             
-        //     $where = $this->parseRecord( $conds, 'where' );
+            $where = $this->parseRecord( $conds, 'where' );
             
-        //     $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) as ranking FROM $table as T WHERE $where[fields] ORDER BY COUNT";
+            $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) as ranking FROM $table as T WHERE $where[fields] ORDER BY COUNT";
             
-        //     $stmt->prepare($sql);
+            $stmt->prepare($sql);
             
-        //     $stmt->execute();
+            $stmt->execute();
 
-        //     $result = $stmt->get_result(); // get the mysqli result
-        //     if ( $result === false ) {
+            $result = $stmt->get_result(); // get the mysqli result
+            if ( $result === false ) {
 
-        //         $this->handleError("SQL ERROR on row()", $sql);
-        //         return 0;
-        //     }
-        //     /* 조회쿼리결과리턴 */
-        //     $rets = 0;
-        //     while ($row = $result->fetch_assoc()) {
-        //         $rets = $row;
-        //     }
-        //     return $rets; //조회리스트 또는 조회건수를 리턴하게됨
-        // } catch (mysqli_sql_exception $e) {
-        //     $this->handleError($e->__toString(), "SQL: " . $sql);
-        // }
-        return 'Fail';
+                $this->handleError("SQL ERROR on row()", $sql);
+                return 0;
+            }
+            /* 조회쿼리결과리턴 */
+            $rets = 0;
+            while ($row = $result->fetch_assoc()) {
+                $rets = $row;
+            }
+            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
+        } catch (mysqli_sql_exception $e) {
+            $this->handleError($e->__toString(), "SQL: " . $sql);
+        }
     }
 
     //conds = null 인 경우 조회건수를 가져오게 됨 아니면 조회리스트
