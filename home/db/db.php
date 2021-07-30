@@ -249,9 +249,9 @@ class MyDB
                 return 0;
             }
             /* 조회쿼리결과리턴 */
-            $rets = [];
+            $rets = 0;
             while ($row = $result->fetch_assoc()) {
-                $rets[] = $row;
+                $rets = $row;
             }
             return $rets; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
