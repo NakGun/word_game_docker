@@ -231,7 +231,7 @@ class MyDB
             
             $stmt = $this->connection->stmt_init();
             
-            $where = $this->parseRecord( $conds, 'where' );
+            //$where = $this->parseRecord( $conds, 'where' );
             
             // $sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > T.COUNT) FROM $table T WHERE $where[fields] ORDER BY T.COUNT";
             $sql = "SELECT $select FROM $table ORDER BY count desc";
@@ -243,14 +243,14 @@ class MyDB
             if ( $result === false ) {
 
                 $this->handleError("SQL ERROR on row()", $sql);
-                return 0;
+                return [];
             }
             /* 조회쿼리결과리턴 */
             $rets = [];
             while ($row = $result->fetch_assoc()) {
                 $rets = $row;
             }
-            return $rets[0]; //조회리스트 또는 조회건수를 리턴하게됨
+            return $rets; //조회리스트 또는 조회건수를 리턴하게됨
         } catch (mysqli_sql_exception $e) {
             $this->handleError($e->__toString(), "SQL: " . $sql);
         }
