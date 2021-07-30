@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 
 echo 'Fail';
 
-// include '/docker/home/db/db.php';  
+include '/docker/home/db/db.php';  
 // include '/docker/home/functions.php';
 
 // $table 	    = $_POST['table'];
