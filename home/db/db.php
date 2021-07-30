@@ -256,13 +256,15 @@ class MyDB
         // }
         try {
             
+
+           
             $stmt = $this->connection->stmt_init();
-            //$parsed = $this->parseRecord( $conds, 'where' );
+            $where = $this->parseRecord( $conds, 'where' );
             
             // $sql = "SELECT $select FROM $table ORDER BY count desc";
             //$sql = "SELECT (SELECT COUNT(*) + 1 FROM $table WHERE COUNT > t.COUNT) as ranking FROM $table as t WHERE $where[fields] ORDER BY COUNT";
             // $sql = "SELECT $select FROM $table WHERE $where[fields] ORDER BY count desc";
-            $sql = "SELECT $select FROM $table";
+            $sql = "SELECT $select FROM $table WHERE $where[fields]";
             $stmt->prepare($sql);
             
 
