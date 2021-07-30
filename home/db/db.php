@@ -225,7 +225,7 @@ class MyDB
         return $rows[0];
     }
 
-    public function ranking(string $table, array $conds = [], $select = '*')
+    public function ranking(string $table, array $conds, $select = '*')
     {
         // try {
             
